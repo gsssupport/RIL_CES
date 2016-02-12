@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+alter table TRN_VAL alter column CUST_NAME type CHARACTER VARYING(77);
+alter table HST_TRN_VAL alter column CUST_NAME type CHARACTER VARYING(77);
+
+
+
+
+
