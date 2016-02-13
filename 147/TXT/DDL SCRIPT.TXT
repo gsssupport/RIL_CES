@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ alter table TRN_VAL alter column CUST_NAME drop not null; update TRN_VAL set  CUST_NAME=substr(CUST_NAME,1,75);alter table TRN_VAL alter column CUST_NAME type CHARACTER VARYING(75);
+ alter table HST_TRN_VAL alter column CUST_NAME drop not null; update HST_TRN_VAL set  CUST_NAME=substr(CUST_NAME,1,75);alter table HST_TRN_VAL alter column CUST_NAME type CHARACTER VARYING(75);
+
+
+
+
+
